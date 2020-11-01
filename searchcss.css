@@ -1,0 +1,103 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+#Search .calendar, #Search .switchButton, .busTypeClose, .selectBusType, .servicelist {
+    background-image: url(https://st.redbus.in/images/ImagesOpt/home_sprite3.png);
+    background-repeat: no-repeat;
+}
+.LB {
+    float: left;
+}
+.RB {
+
+    float: right;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+#Search .searchRow {
+    margin-bottom: 10px;
+}
+#Search .searchRow .NoPaddingRight {
+    padding-left: 0;
+}
+#Search .searchRow .searchRight {
+    float: left;
+    padding-left: 40px;
+}
+button, select {
+    text-transform: none;
+}
+section {
+    margin-top: 27px;
+}
+.XXCN {
+    margin-bottom: 40px;
+}
+.clearfix {
+    display: block;
+}
+#Search .switchButton {
+    margin: 21px 5px 0;
+    float: left;
+    cursor: pointer;
+    background-position: -27px 7px;
+    width: 30px;
+    height: 30px;
+}
+.ancLink, .button, button, input[type="button"], input[type="submit"] {
+    background-color: #e24648;
+    background-position: 96% center;
+    background-repeat: no-repeat;
+    border: 0 none;
+    color: #fff !important;
+    padding: 6px 20px;
+    text-indent: 0;
+    transition: all 0.2s ease 0s;
+    font-family: 'Open Sans', sans-serif;
+}
+button {
+    appearance: button;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.tb_operator {
+    width: 100%;
+    background-color: #404043;
+    float: left;
+    padding: 3px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.col-md-6{
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+div {
+    display: block;
+}
